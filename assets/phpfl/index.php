@@ -617,7 +617,9 @@
   <!-- Footer -->
 
   <footer>
-    <p>Team Mumet @ .com All rights reserved.</p>
+    <h6>Contact Us</h6>
+    <p>08216437367</p>
+    <li>Team Mumet @ .com All rights reserved.</li>
   </footer>
 
   <!-- Footer -->

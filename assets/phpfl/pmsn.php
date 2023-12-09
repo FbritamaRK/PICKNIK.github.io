@@ -19,6 +19,12 @@ if ($conn->connect_error) {
     <title>Data Display and Edit</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <style>
+        body{
+            background-image: url(https://th.bing.com/th/id/R.7bff33a9de093745f6ee6b1be41bb7c2?rik=p65Z0rrXmIa4Vg&riu=http%3a%2f%2fcucimata.id%2fwp-content%2fuploads%2f2022%2f09%2fDSC01592-edit3-1.jpg&ehk=yl%2f17Fr44MtK9sPr74G2Kypmt8hO2nZ5frdARw%2fUECA%3d&risl=&pid=ImgRaw&r=0);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
         .mx-auto {
             width: 800px;
         }

@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://jooinn.com/images/blur-background-15.jpg);
+}
+
+.registerPage{
+    width: 750px;
+    background: rgba(10, 10, 10, 0.1);
+    border: 2px solid rgba(225, 225, 225, .2);
+    box-shadow: 0 0 10px rgba(225, 225, 225, .5);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    color: white;
+    padding: 40px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo-container{
+    margin-top: 5px;
+}
+
+.logo-container img{
+    position: sticky;
+    width: 300px;
+    height: 300px;
+    margin-left: 8px;
+}
+
+.input-box .input-field{
+    position: relative;
+    width: 48;
+    height: 50px;
+    margin: 13px 0;
+}
+
+.input-box .input-field input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2.5px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+}
+
+.input-box .input-field input ::placeholder{
+    color: white;
+}
+
+.button{
+    width: 100%;
+    height: 45%;
+    background: rgb(0, 132, 255);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+}
+
+.button:hover{
+    background:blue;
+}
+
+.judul{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    margin-right: 40px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+ 
+.input-field ion-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; 
+    transform: translateY(-50%);
+    color: white 
+}
+
+@media (max-width:576px){
+    .input-box .input-field{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

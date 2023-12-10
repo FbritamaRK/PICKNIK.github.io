@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Order Form</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/tiket.css">
+</head>
+<body>
+
+  <form id="ticketForm" method="post" action="assets/php/process_form.php">
+
+    <label for="numberOfPeople">Jumlah Pemesan :</label>
+    <input type="number" id="numberOfPeople" name="numberOfPeople" min="1" value="1" onchange="generateFields(this.value)">
+    
+    <div id="ticketFields">
+      <!-- Fields will be dynamically generated here -->
+    </div>
+
+    <button class="submit" value="submit">Book Now</button>
+    <br>
+    <button class="button1"><a href="tour.html">Back</a></button>
+
+  </form>
+
+  <script src="assets/js/tiket.js"></script>
+</body>
+</html>
